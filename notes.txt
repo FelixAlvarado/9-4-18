@@ -1,0 +1,4 @@
+How may you compare to strings using a LL? 
+
+Go through both lists at the same time and for each node, compare if there is a current letter, and (if the problem wants it) if the current letter comes alphabetically before the other. 
+
