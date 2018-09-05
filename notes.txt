@@ -2,3 +2,12 @@ How may you compare to strings using a LL?
 
 Go through both lists at the same time and for each node, compare if there is a current letter, and (if the problem wants it) if the current letter comes alphabetically before the other. 
 
+Explain how you handle numbers of different sizes when summng two linked lists
+
+1. calculate sizes of given two linked lists 
+2. if sizes are thes ame, then calculate sum using recursion. Hold all nodes in recursion call stack till the right most node caluclate sum of rightmost nodes and forward carry of left side. 
+
+3. If size is not same, then follow belfow stes:
+a) calculate difference of sizes of two linked lists. Let the diffrent be diff 
+b) move diff nodes ahead in the bigger linked list. Now use step 2 to calculate sum of smaller list and right sub right of larger list 
+c) caculate sum of carry with remaining lieft sub_list of larger list. 
